@@ -2,9 +2,7 @@
 
 exports[`Should render correct Dashboard page 1`] = `
 <div>
-  <p>
-    Home page
-  </p>
+  <Connect(ExpensesSummary) />
   <Connect(ExpenseListFilters) />
   <Connect(ExpenseList) />
 </div>
