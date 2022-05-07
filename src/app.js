@@ -4,14 +4,15 @@ import AppRouter from "./routers/AppRouter";
 import { Provider } from "react-redux";
 // ----- My first Redux store ----- //
 import configureStore from "./store/configureStore";
-import { addExpense } from "./actions/expenses";
-import { setTextFilter } from "./actions/filters";
-import getVisibleExpenses from "./selectors/expenses";
+// import { addExpense } from "./actions/expenses";
+// import { setTextFilter } from "./actions/filters";
+// import getVisibleExpenses from "./selectors/expenses";
 // ----- My first Redux store ----- //
 // ----- Styles ----- //
 import "normalize.css/normalize.css";
 import "./styles/styles.scss";
 import "react-dates/lib/css/_datepicker.css";
+import "./firebase/firebase";
 
 const store = configureStore();
 
