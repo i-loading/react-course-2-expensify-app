@@ -100,7 +100,7 @@ exports[`Should render ExpenseForm correctly 1`] = `
       value=""
     />
     <button>
-      Add Expense
+      Edit Expense
     </button>
   </form>
 </div>
@@ -206,7 +206,7 @@ exports[`Should render ExpenseForm with expense data 1`] = `
       value=""
     />
     <button>
-      Add Expense
+      Edit Expense
     </button>
   </form>
 </div>
@@ -315,7 +315,7 @@ exports[`Should render error for invalid for submission 1`] = `
       value=""
     />
     <button>
-      Add Expense
+      Edit Expense
     </button>
   </form>
 </div>
