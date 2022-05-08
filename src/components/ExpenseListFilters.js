@@ -10,12 +10,9 @@ import {
 } from "./../actions/filters";
 
 export class ExpenseListFilters extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      calendarFocused: null,
-    };
-  }
+  state = {
+    calendarFocused: null,
+  };
 
   onDatesChange = ({ startDate, endDate }) => {
     this.props.setStartDate(startDate);
@@ -27,10 +24,8 @@ export class ExpenseListFilters extends Component {
   onTextChange = (e) => this.props.setTextFilter(e.target.value);
   onSortChange = (e) => {
     if (e.target.value === "date") {
-      // this.props.dispatch(sortByDate(e.target.value));
       this.props.sortByDate();
     } else if (e.target.value === "amount") {
-      // this.props.dispatch(sortByAmount(e.target.value));
       this.props.sortByAmount();
     }
   };
